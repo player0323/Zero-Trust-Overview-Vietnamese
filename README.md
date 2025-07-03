@@ -2,17 +2,54 @@
 
 tong quan zero trust, zero trust overview, what is zero trust  
 ---
-![](image/overview.PNG)  
-![](image/whyneedzerotrust.PNG) 
-![](image/whyneedzerotrust2.PNG)  
-![](image/whyneedzerotrust3.PNG)
-![](image/whatiszerotrust.PNG)
-![](coreprinciple.PNG)
-![](image/implementation.png)
-![](image/implementation2.png)
-![](image/benefit.png)
-![](image/ztnaoverrdvpn.png)
-![](image/limitation.png)
-![](image/currentstateofzerotrustimplementations.PNG)
-![](image/feature.png)
+<p align="center">
+  <img src="image/overview.PNG" width="600"/>
+</p>
 
+<p align="center">
+  <img src="image/whyneedzerotrust.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/whyneedzerotrust2.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/whyneedzerotrust3.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/whatiszerotrust.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="coreprinciple.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/implementation.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/implementation2.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/benefit.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/ztnaoverrdvpn.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/limitation.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/currentstateofzerotrustimplementations.PNG" width="600"/>
+</p>
+
+<p align="center">
+  <img src="image/feature.png" width="600"/>
+</p>
