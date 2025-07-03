@@ -1,4 +1,4 @@
-***# Zero-Trust-Overview***
+# ***Zero-Trust-Overview***
 tong quan zero trust, zero trust overview, what is zero trust  
 ![](image/overview.PNG)  
 ![](image/whyneedzerotrust.PNG) 
@@ -12,5 +12,5 @@ tong quan zero trust, zero trust overview, what is zero trust
 ![](image/ztnaoverrdvpn.png)
 ![](image/limitation.png)
 ![](image/currentstateofzerotrustimplementations.PNG)
-![](image/feture.png)
+![](image/feature.png)
 
