@@ -1,4 +1,4 @@
-<p align="center"> <h1> # ***Zero-Trust-Overview*** </h1> </p>
+<h1> # ***Zero-Trust-Overview*** </h1>
 tong quan zero trust, zero trust overview, what is zero trust  
 ![](image/overview.PNG)  
 ![](image/whyneedzerotrust.PNG) 
