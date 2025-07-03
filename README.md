@@ -51,7 +51,7 @@ Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là
 
 <div align="center">
   
-"**No trust, Always Verify -Không tin tưởng, luôn xác minh**"
+"##***No trust, Always Verify -Không tin tưởng, luôn xác minh***"
 
 </div>
   
