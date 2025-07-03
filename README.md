@@ -1,6 +1,6 @@
-<h2 align="center">Zero-Trust-Overview</h2>
+<h1 align="center">Zero-Trust-Overview</h1>
 
-tong quan zero trust, zero trust overview, what is zero trust  
+<h2 align="center">tong quan zero trust, zero trust overview, what is zero trust</h2>
 ---
 <p align="center">
   <img src="image/overview.PNG" width="600"/>
