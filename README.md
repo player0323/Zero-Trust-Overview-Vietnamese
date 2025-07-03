@@ -49,9 +49,11 @@ Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là
 Đây chính là lý do Zero Trust ra đời – để bảo vệ từng mảnh dữ liệu, từng thiết bị, bất kể chúng ở đâu
 – với triết lý cốt lõi là: 
 
-<strong align="center">
+<div align="center">
+  
 "**No trust, Always Verify -Không tin tưởng, luôn xác minh**"
-</strong>
+
+</div>
   
 </div>
 <p align="center">
