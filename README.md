@@ -1,6 +1,6 @@
 <h1 align="center">Zero-Trust-Overview</h1>
 
-<h2 align="center">tong quan zero trust, zero trust overview, what is zero trust</h2>
+<h2 align="center">zero trust overview, what is zero trust, tong quan zero trust</h2>
 
 <p align="center">
   <img src="image/overview.PNG" width="600"/>
@@ -23,6 +23,7 @@ Theo mình tìm hiểu, hiện tại các tổ chức và doanh nghiệp bảo m
   <img src="image/whyneedzerotrust.PNG" width="600"/>
 </p>
 <div align="justify" style="line-height: 1.8;font-size: 16px;">
+  
 ### Tại sao lại cần Zero Trust
 
 Trước khi công nghệ điện toán đám mây, làm việc từ xa và thiết bị cá nhân trở nên phổ biến, hầu hết các tổ chức đều vận hành trên một nền tảng bảo mật tập trung, 
@@ -38,7 +39,18 @@ Ngược lại, Zero Trust không tin tưởng bất kỳ ai hoặc thiết bị
 <p align="center">
   <img src="image/whyneedzerotrust2.PNG" width="600"/>
 </p>
+<div align="justify" style="line-height: 1.8; font-size:16px;">
+Trong thời đại ngày nay, nhân viên có thể ở bất kỳ đâu, từ quán cà phê đến phòng khách tại nhà. Họ sử dụng đám mây để lưu trữ tài liệu, truy cập ứng dụng, và thậm chí mang theo thiết bị cá nhân – laptop, điện thoại – để làm việc. Điều này làm mờ đi ranh giới mạng truyền thống mà chúng ta từng dựa vào, như tường lửa hay văn phòng cố định.
+  
+Điều đáng lo hơn là dữ liệu của chúng ta giờ đây không còn nằm yên trong máy chủ tại công ty. Nó phân tán khắp nơi – trên các dịch vụ lưu trữ như Google Drive, Microsoft Azure, hay thậm chí trong email cá nhân. Khi biên giới mạng không còn rõ ràng và dữ liệu trôi nổi như vậy, liệu chúng ta có thể tiếp tục tin tưởng rằng những gì bên trong hệ thống là an toàn? Câu trả lời là: Không.
 
+Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là di chuyển ngang. Một khi mà kẻ tấn công nó lọt được vào bên trong rồi ấy thì chúng có thể tự do đi lại từ phòng này sang phòng khác để truy cập các tài nguyên quan trọng khác một cách khá là dễ dàng.
+
+Đây chính là lý do Zero Trust ra đời – để bảo vệ từng mảnh dữ liệu, từng thiết bị, bất kể chúng ở đâu
+– với triết lý cốt lõi là: **"🔐 no trust, Always Verify -Không tin tưởng, luôn xác minh "
+
+  
+</div>
 <p align="center">
   <img src="image/whyneedzerotrust3.PNG" width="600"/>
 </p>
