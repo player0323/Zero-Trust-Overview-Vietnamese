@@ -47,8 +47,11 @@ Trong thời đại ngày nay, nhân viên có thể ở bất kỳ đâu, từ 
 Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là di chuyển ngang. Một khi mà kẻ tấn công nó lọt được vào bên trong rồi ấy thì chúng có thể tự do đi lại từ phòng này sang phòng khác để truy cập các tài nguyên quan trọng khác một cách khá là dễ dàng.
 
 Đây chính là lý do Zero Trust ra đời – để bảo vệ từng mảnh dữ liệu, từng thiết bị, bất kể chúng ở đâu
-– với triết lý cốt lõi là: **"🔐 no trust, Always Verify -Không tin tưởng, luôn xác minh "
+– với triết lý cốt lõi là: 
 
+<div align="center">
+**"No trust, Always Verify -Không tin tưởng, luôn xác minh"**
+</div>
   
 </div>
 <p align="center">
