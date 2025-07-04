@@ -65,7 +65,7 @@ Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là
 </p>
 
 <p align="center">
-  <img src="coreprinciple.PNG" width="600"/>
+  <img src="coreprinciples.PNG" width="600"/>
 </p>
 
 <p align="center">
