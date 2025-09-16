@@ -1,3 +1,4 @@
+<div align=jutify>
 <h1 align="center">Zero-Trust-Overview</h1>
 <h2 align="center">Zero Trust Overview – What is Zero Trust – Tổng quan Zero Trust</h2>
 
@@ -196,7 +197,7 @@ Zero trust hiện đại, trong tương lai cần đảm bảo sự cân bằng 
 <p align="center">
   <img src="image/currentstateofzerotrustimplementations.PNG" width="600"/>
 </p>
-
+**Khảo sát mức độ triển khai của các công ty đầu năm 2025**
 ## 📈 Xu hướng và thị trường
 
 <p align="center">
@@ -218,3 +219,4 @@ Nó yêu cầu:
 - Thay đổi tư duy từ “tin tưởng mặc định” sang “luôn xác minh”.  
 
 👉 Trong tương lai gần, **Zero Trust sẽ trở thành tiêu chuẩn bảo mật bắt buộc**, đặc biệt với các tổ chức chuyển đổi số, làm việc từ xa, và quản lý dữ liệu phân tán.  
+</div>
