@@ -70,11 +70,9 @@ Khảo sát phản ánh sự gia tăng đáng lo ngại của các mối đe d�
   <img src="image/whatiszerotrust.PNG" width="600"/>
 </p>
 
-<p align="center">
-  <img src="image/coreprinciple.PNG" width="600"/>
-</p>
 <div align="justify" style="line-hieght: 1.8; font-size:16px;">
 ### Vậy thì zero trust là gì?
+  
 Zero Trust nó không chỉ là công nghệ, nó là một sự thay đổi trong cách suy nghĩ về bảo mật. Mình chuyển từ việc cố xây một cái pháo đài bất khả xâm phạm sang một mô hình linh hoạt hơn, nơi mà mọi truy cập đều phải được kiểm tra liên tục, không có tin tưởng mặc định.
 
 Mục tiêu thực tế của nó là chỉ cho phép đúng người dùng có đúng quyền truy cập vào đúng dữ liệu vì đúng lý do đó.
@@ -85,6 +83,11 @@ Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác 
 Điều này có nghĩa là sau khi một người dùng hoặc thiết bị đã được xác thực (chứng minh được họ là ai), hệ thống sẽ thực hiện ủy quyền để xác định những tài nguyên cụ thể nào mà họ được phép truy cập và họ có thể làm gì với những tài nguyên đó
 
 <div>
+
+<p align="center">
+  <img src="image/coreprinciple.PNG" width="600"/>
+</p>
+
 <p align="center">
   <img src="image/implementation.png" width="600"/>
 </p>
