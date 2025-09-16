@@ -11,7 +11,7 @@
 
 Mô hình bảo mật **Zero Trust** là một trong những xu hướng bảo mật hiện đại đang được hầu hết các doanh nghiệp lớn trên toàn cầu áp dụng như **Cisco, Microsoft, Fortinet, Palo Alto...**  
 
-Hẳn không khó để nhận thấy rằng các cuộc tấn công mạng ngày càng tinh vi và phức tạp hơn. Trong bối cảnh đó, việc dựa vào ranh giới an toàn mạng nội bộ **không còn đủ** để bảo vệ dữ liệu và hệ thống.  
+Hẳn không khó để các bạn thấy được rằng các cuộc tấn công mạng ngày càng trở nên tinh vi và phức tạp hơn. Trong bối cảnh đó, các tổ chức cũng đã nhận ra rằng việc dựa vào ranh giới an toàn mạng nội bộ **không còn đủ** để bảo vệ dữ liệu và hệ thống của họ như trước nữa.  
 
 👉 Do đó, cần xem xét lại cách tiếp cận bảo mật – và điều này dẫn tới sự ra đời của **Zero Trust**.  
 
@@ -25,9 +25,13 @@ Theo mình tìm hiểu, các tổ chức bảo mật lớn vẫn đang tiếp t�
 
 ## ❓ Tại sao lại cần Zero Trust
 
-- Trước khi điện toán đám mây, làm việc từ xa, BYOD (Bring Your Own Device) phát triển, các tổ chức vận hành theo mô hình **castle-and-moat** (lâu đài và hào nước).  
-- Mọi thứ **bên trong mạng được mặc định là đáng tin cậy**, chỉ lo mối đe dọa từ bên ngoài.  
-- Nếu hacker lọt được vào trong → có thể **tự do di chuyển ngang (lateral movement)** và truy cập tài nguyên.  
+Trước khi công nghệ điện toán đám mây, làm việc từ xa và thiết bị cá nhân trở nên phổ biến, hầu hết các tổ chức đều vận hành trên một nền tảng bảo mật tập trung, Mô hình an ninh truyền thống nơi mà mọi thành phần bên trong mạng được mặc định là 'đáng tin cậy', và các mối đe dọa chủ yếu đến từ bên ngoài. Việc xây dựng các lớp phòng thủ tập trung tại biên mạng, như firewall hay hệ thống phát hiện xâm nhập (IDS), từng là tiêu chuẩn trong nhiều năm.
+
+Tuy nhiên, mô hình này đang dần bộc lộ nhiều hạn chế trước sự thay đổi nhanh chóng của môi trường CNTT hiện đại
+
+Theo mô hình bảo mật truyền thống, thường được gọi là "castle-and-moat" (lâu đài và hào nước), dựa trên ý tưởng rằng biên giới mạng là rào cản chính, và mọi thứ bên trong được coi là an toàn. Tuy nhiên, vấn đề của mô hình này là nếu một hacker xâm nhập được vào bên trong, họ có thể truy cập mọi thứ.
+
+Ngược lại, Zero Trust không tin tưởng bất kỳ ai hoặc thiết bị nào, dù ở bên trong hay bên ngoài mạng. Mỗi yêu cầu truy cập đều phải được xác minh, giúp giảm thiểu rủi ro từ các cuộc tấn công nội bộ, như được ghi nhận.
 
 ⚡ **Zero Trust khác biệt ở chỗ:**  
 Không tin tưởng bất kỳ ai, bất kỳ thiết bị nào (dù trong hay ngoài mạng). Mỗi yêu cầu truy cập đều phải **được xác minh lại**.  
@@ -42,9 +46,8 @@ Không tin tưởng bất kỳ ai, bất kỳ thiết bị nào (dù trong hay n
 
 ### 📌 Thực trạng hiện nay
 
-- Nhân viên có thể làm việc **từ mọi nơi**: quán cà phê, tại nhà, thậm chí dùng thiết bị cá nhân.  
-- Dữ liệu phân tán khắp nơi: Google Drive, Azure, email cá nhân → **mất ranh giới mạng**.  
-- Khi **dữ liệu trôi nổi**, ta không thể tiếp tục tin rằng bên trong là an toàn.  
+Trong thời đại ngày nay, nhân viên có thể ở bất kỳ đâu, từ quán cà phê đến phòng khách tại nhà. Họ sử dụng đám mây để lưu trữ tài liệu, truy cập ứng dụng, và thậm chí mang theo thiết bị cá nhân – laptop, điện thoại – để làm việc. Điều này làm mờ đi ranh giới mạng truyền thống mà chúng ta từng dựa vào, như tường lửa hay văn phòng cố định.
+Điều đáng lo hơn là dữ liệu của chúng ta giờ đây không còn nằm yên trong máy chủ tại công ty. Nó phân tán khắp nơi – trên các dịch vụ lưu trữ như Google Drive, Microsoft Azure, hay thậm chí trong email cá nhân. Khi biên giới mạng không còn rõ ràng và dữ liệu trôi nổi như vậy, liệu chúng ta có thể tiếp tục tin tưởng rằng những gì bên trong hệ thống là an toàn? Câu trả lời là: Không.
 
 Vấn đề lớn nhất là **di chuyển ngang (lateral movement)**. Một khi bị xâm nhập, kẻ tấn công có thể dễ dàng di chuyển và khai thác các tài nguyên khác.  
 
