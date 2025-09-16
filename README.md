@@ -84,6 +84,7 @@ Mục tiêu thực tế của nó là chỉ cho phép đúng người dùng có 
 Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác minh, never trust, always verify. Bất kể người dùng đang ở đâu, dù là trong văn phòng, ngồi quán cà phê, hay ở nhà đều bị đối xử như nhau. Đều bị coi là có khả năng gây hại cho đến khi chứng minh được là mình an toàn. Phải liên tục chứng minh danh tính và quyền truy cập mình.
 
 Điều này có nghĩa là sau khi một người dùng hoặc thiết bị đã được xác thực (chứng minh được họ là ai), hệ thống sẽ thực hiện ủy quyền để xác định những tài nguyên cụ thể nào mà họ được phép truy cập và họ có thể làm gì với những tài nguyên đó
+
 ---
 
 ## Để đạt được những điều này , Zerotrust đặt ra một vài khái niệm trọng tâm:
@@ -94,7 +95,8 @@ Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác 
 
 ## ⚙️ Nguyên tắc cốt lõi
 
-1. **Xác minh liên tục** (Continuous Verification)  
+1. **Xác minh liên tục** (Continuous Verification)
+   
    - Kiểm tra: danh tính, thiết bị, vị trí, hành vi.  
    - Áp dụng **MFA, posture check, phân tích hành vi**.
      
@@ -102,7 +104,8 @@ Ví dụ: Mỗi khi một thiết bị hoặc người dùng yêu cầu truy c�
 
 Và quan trọng nhất là việc kiểm tra này nó diễn ra liên tục cho mỗi một yêu cầu truy cập tài nguyên chứ không phải chỉ một lần lúc đầu. Mỗi lần anh muốn mở một file, truy cập một ứng dụng, hệ thống lại đánh giá lại xem anh có còn đủ an toàn và có đúng quyền không. Nếu hệ thống phát hiện dấu hiệu bất thường (ví dụ như đăng nhập từ vị trí khác thường, thiết bị chưa từng đăng nhập trước đó), nó sẽ yêu cầu người dùng xác thực lại qua các phương pháp như MFA.
 
-2. **Quyền truy cập tối thiểu (Least Privilege)**  
+2. **Quyền truy cập tối thiểu (Least Privilege)**
+   
    - Chỉ cấp quyền cần thiết.  
    - RBAC, ABAC để kiểm soát chi tiết.  
 
@@ -110,7 +113,8 @@ Hệ thống quản lý truy cập dựa trên vai trò (RBAC): Ví dụ như b�
 
 Hệ thống truy cập dựa trên chính sách (ABAC): Định nghĩa: Quyết định cấp quyền dựa trên các thuộc tính (attribute) của người dùng, thiết bị, và ngữ cảnh truy cập (ví dụ: thời gian, vị trí, thiết bị, mức độ rủi ro). Ví dụ: Một chính sách có thể quy định rằng chỉ cho phép truy cập vào dữ liệu nhạy cảm từ các thiết bị đã đăng ký và được kiểm tra bảo mật, trong giờ hành chính làm việc từ 8h-16h.
 
-3. **Giả định đã bị xâm nhập (Assume Breach)**  
+3. **Giả định đã bị xâm nhập (Assume Breach)**
+   
    - Thiết kế hệ thống như thể đã có mối đe dọa.  
    - **Segmentation** để hạn chế thiệt hại.  
 
@@ -134,11 +138,11 @@ Hệ thống truy cập dựa trên chính sách (ABAC): Định nghĩa: Quyết
   
 - **Kiểm soát truy cập & xác thực**: MFA, sinh trắc học, chính sách context-aware.
 
--> kiểm soát truy cập và xác thực. Triển khai các cơ chế xác thực nâng cao, chẳng hạn như xác thực đa yếu tố và sinh chắc học để tăng cường kiểm soát truy cập. Ngoài ra, đưa ra các chính sách truy cập chi tiết dựa trên khái niệm list privilege, đảm bảo người dùng và thiết bị chỉ có thể truy cập các tài nguyên cần thiết cho nhiệm vụ của họ
+-> Kiểm soát truy cập và xác thực. Triển khai các cơ chế xác thực nâng cao, chẳng hạn như xác thực đa yếu tố và sinh chắc học để tăng cường kiểm soát truy cập. Ngoài ra, đưa ra các chính sách truy cập chi tiết dựa trên khái niệm list privilege, đảm bảo người dùng và thiết bị chỉ có thể truy cập các tài nguyên cần thiết cho nhiệm vụ của họ
 
 - **Giám sát & phân tích liên tục**: AI/ML, SIEM, EDR, IDS.  
 
-:Giám sát và phân tích liên tục. Triển khai các công cụ giám sát có thể theo dõi và phân tích hành vi của người dùng. Lưu lượng truy cập mạng và tình trạng thiết bị. Các thuật toán AI có thể giúp phát hiện các hoạt động bất thường và kích hoạt cảnh báo, đảm bảo phản ứng nhanh với các vi phạm bảo mật
+->Giám sát và phân tích liên tục. Triển khai các công cụ giám sát có thể theo dõi và phân tích hành vi của người dùng. Lưu lượng truy cập mạng và tình trạng thiết bị. Các thuật toán AI có thể giúp phát hiện các hoạt động bất thường và kích hoạt cảnh báo, đảm bảo phản ứng nhanh với các vi phạm bảo mật
 
 📌 Công cụ tham khảo:  
 - Google BeyondCorp, Microsoft AIP, Zscaler ZPA  
@@ -178,6 +182,7 @@ Zero Trust yêu cầu xác minh liên tục từng kết nối, từng yêu cầ
 Về mặt nhân viên : khi mà mọi người phải xác thực nhiều lần, nhiều bước liên tục mà lại còn gặp lỗi
   - Không quen MFA, bị từ chối truy cập do posture check => khó chịu. •
   - Nếu không được truyền thông rõ ràng, sẽ quay sang phá hoặc tìm cách lách.
+    
 Về mặt lãnh đạo / quản lý
   - Thường muốn “an toàn, nhưng không ảnh hưởng hiệu suất” – mâu thuẫn với triết lý Zero Trust.
   - Không hiểu độ sâu kỹ thuật => không cấp ngân sách đầy đủ, triển khai nửa vời.
@@ -185,6 +190,7 @@ Về mặt lãnh đạo / quản lý
 Dù được nhiều tổ chức và nhà cung cấp quảng bá, Zero Trust hiện vẫn chưa có một bộ chuẩn kỹ thuật quốc tế nào thống nhất và bắt buộc. Mỗi nhà cung cấp đưa ra một định nghĩa, kiến trúc và giải pháp riêng, dẫn đến tình trạng khó tích hợp, thiếu tính tương thích và khó đánh giá hiệu quả toàn diện. Điều này khiến các tổ chức dễ triển khai theo kiểu mong manh , không nhất quán, và gặp khó khăn khi mở rộng hoặc chuyển đổi sang giải pháp khác trong tương lai. 
 
 Zero trust hiện đại, trong tương lai cần đảm bảo sự cân bằng giữa bảo mật và trải nghiệm người dùng khi sử dụng Zerotrust là vấn đề cấp thiết đối với doanh nghiệp nhằm ngăn chặn những tác động tiêu cực của mô hình bảo mật này đến năng suất và quy trình làm việc của đội ngũ nhân sự
+
 ---
 
 <p align="center">
@@ -192,6 +198,10 @@ Zero trust hiện đại, trong tương lai cần đảm bảo sự cân bằng 
 </p>
 
 ## 📈 Xu hướng và thị trường
+
+<p align="center">
+  <img src="image/feature.png" width="600"/>
+</p>
 
 - Quy mô thị trường Zero Trust **dưới 10 tỷ USD (2017)** → **36.9 tỷ USD (2024)**.  
 - CAGR: **16.6%/năm** → thuộc top tăng trưởng cao trong ngành an ninh mạng.  
