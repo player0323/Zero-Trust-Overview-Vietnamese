@@ -1,4 +1,4 @@
-<img width="5251" height="190" alt="image" src="https://github.com/user-attachments/assets/1079c827-880b-4a23-b351-b359db983a1d" /><h1 align="center">Zero-Trust-Overview</h1>
+<h1 align="center">Zero-Trust-Overview</h1>
 
 <h2 align="center">zero trust overview, what is zero trust, tong quan zero trust</h2>
 
@@ -80,7 +80,7 @@ Zero Trust nó không chỉ là công nghệ, nó là một sự thay đổi tro
 
 Mục tiêu thực tế của nó là chỉ cho phép đúng người dùng có đúng quyền truy cập vào đúng dữ liệu vì đúng lý do đó.
 
-Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác minh, never trust, always verify Bất kể người dùng đang ở đâu, dù là trong văn phòng, ngồi quán cà phê, hay ở nhà đều bị đối xử như nhau. Đều bị coi là có khả năng gây hại cho đến khi chứng minh được là mình an toàn. Phải liên tục chứng minh danh tính và quyền truy cập mình.
+Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác minh, never trust, always verify. Bất kể người dùng đang ở đâu, dù là trong văn phòng, ngồi quán cà phê, hay ở nhà đều bị đối xử như nhau. Đều bị coi là có khả năng gây hại cho đến khi chứng minh được là mình an toàn. Phải liên tục chứng minh danh tính và quyền truy cập mình.
  
 
 Điều này có nghĩa là sau khi một người dùng hoặc thiết bị đã được xác thực (chứng minh được họ là ai), hệ thống sẽ thực hiện ủy quyền để xác định những tài nguyên cụ thể nào mà họ được phép truy cập và họ có thể làm gì với những tài nguyên đó
@@ -90,7 +90,47 @@ Cái câu khẩu hiệu của nó là không bao giờ tin tưởng, luôn xác 
 <p align="center">
   <img src="image/coreprinciple.PNG" width="600"/>
 </p>
+<div align="justify" style="line-hieght: 1.8; font-size:16px;">
+Để đạt được những điều này , Zerotrust đặt ra một vài khái niệm trọng tâm
+Nguyên tắc cốt lõi: 
+Xác minh liên tục: Không tin tưởng bất kỳ ai, luôn kiểm tra danh tính, thiết bị,vị trí , và hành vi người dùng. 
+  
+Ví dụ:
 
+Mỗi khi một thiết bị hoặc người dùng yêu cầu truy cập vào tài nguyên, hệ thống sẽ khởi động quá trình kiểm tra theo từng bước sau:
+
+ví dụ như là thông tin đăng nhập, xác thực đa yếu tố, rồi kiểm tra cả tình trạng sức khỏe của cái thiết bị đang dùng để truy cập nữa. Hệ điều hành có mới nhất không? Có cài phần mình diệt virus không? Nó có đang chạy bình thường không?
+rồi vị trí địa lý, thời gian truy cập, hành vi người dùng có bất thường không?
+
+Và quan trọng nhất là việc kiểm tra này nó diễn ra liên tục cho mỗi một yêu cầu truy cập tài nguyên chứ không phải chỉ một lần lúc đầu.
+
+Mỗi lần anh muốn mở một file, truy cập một ứng dụng, hệ thống lại đánh giá lại xem anh có còn đủ an toàn và có đúng quyền không.
+
+Nếu hệ thống phát hiện dấu hiệu bất thường (ví dụ như đăng nhập từ vị trí khác thường, thiết bị chưa từng đăng nhập trước đó), nó sẽ yêu cầu người dùng xác thực lại qua các phương pháp như MFA.
+
+
+Quyền truy cập tối thiểu:  Nguyên tắc này yêu cầu là chỉ cấp cho người dùng này, ứng dụng này hay là thiết bị đúng những cái quyền hạn tối thiểu nhất mà họ cần để hoàn thành công việc của mình thôi
+
+Hệ thống quản lý truy cập dựa trên vai trò (RBAC):
+Ví dụ như bạn chỉ cần đọc tài liệu thì bạn chỉ được phép đọc mà không có bất kỳ quyền chỉnh sữa hay xóa gì. Hoặc là một ví dụ rất phổ biến là trong việc  cấp quyền cho các thành viên, vì người quản trị cảm thấy phức tạp khi phải cấp từng quyền cho từng người thì cấp thẳng quyền admin luôn cho nhanh. Đây là một hành động cực kỳ nguy hiểm gấy mất an toàn thông tin cho tổ chức.
+
+Hệ thống truy cập dựa trên chính sách (ABAC):
+Định nghĩa: Quyết định cấp quyền dựa trên các thuộc tính (attribute) của người dùng, thiết bị, và ngữ cảnh truy cập (ví dụ: thời gian, vị trí, thiết bị, mức độ rủi ro).
+
+Ví dụ: Một chính sách có thể quy định rằng chỉ cho phép truy cập vào dữ liệu nhạy cảm từ các thiết bị đã đăng ký và được kiểm tra bảo mật, trong giờ hành chính làm việc từ 8h-16h.
+
+Giả định đã bị xâm nhập: Thiết kế hệ thống như thể đã có mối đe dọa, giám sát liên tục và giới hạn phạm vi ảnh hưởng. Hệ thống luôn trong trạng thái cảnh giác cao độ, giả định rằng có thể đã bị xâm nhập, từ đó giám sát và phản ứng liên tục.
+
+Quy trình thực hiện:
+Điều này nó buộc chúng ta phải làm hai việc chính. Một là phải phân đoạn segmentation mạng và người dùng thành các khu vực nhỏ độc lập với nhau.
+Để nếu một khu vực bị tấn công ấy thì thiệt hại nó sẽ được giới hạn trong khu vực đó thôi. không lan ra toàn bộ hệ thống.
+Cách tiếp cận này đảm bảo rằng ngay là khi một phân đoạn bị vi phạm, khả năng di chuyển ngang qua mạng của kẻ tấn công sẽ bị hạn chế đi rất nhiều
+
+
+
+<img width="5634" height="2095" alt="image" src="https://github.com/user-attachments/assets/83089b77-b470-4239-8c6e-c61428f8f490" />
+
+<div>
 <p align="center">
   <img src="image/implementation.png" width="600"/>
 </p>
