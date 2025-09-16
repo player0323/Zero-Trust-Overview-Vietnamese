@@ -74,6 +74,7 @@ Khảo sát phản ánh sự gia tăng đáng lo ngại của các mối đe d�
 </p>
 
 <div align="justify" style="line-hieght: 1.8; font-size:16px;">
+  
 ### Vậy thì zero trust là gì?
   
 Zero Trust nó không chỉ là công nghệ, nó là một sự thay đổi trong cách suy nghĩ về bảo mật. Mình chuyển từ việc cố xây một cái pháo đài bất khả xâm phạm sang một mô hình linh hoạt hơn, nơi mà mọi truy cập đều phải được kiểm tra liên tục, không có tin tưởng mặc định.
@@ -126,11 +127,11 @@ Quy trình thực hiện:
 Để nếu một khu vực bị tấn công ấy thì thiệt hại nó sẽ được giới hạn trong khu vực đó thôi. không lan ra toàn bộ hệ thống.
 Cách tiếp cận này đảm bảo rằng ngay là khi một phân đoạn bị vi phạm, khả năng di chuyển ngang qua mạng của kẻ tấn công sẽ bị hạn chế đi rất nhiều
 
-
+<div>
 
 <img width="5634" height="2095" alt="image" src="https://github.com/user-attachments/assets/83089b77-b470-4239-8c6e-c61428f8f490" />
 
-<div>
+
 <p align="center">
   <img src="image/implementation.png" width="600"/>
 </p>
