@@ -129,6 +129,10 @@ Hệ thống truy cập dựa trên chính sách (ABAC): Định nghĩa: Quyết
 
 ## 🚀 Triển khai Zero Trust
 
+<p align="center">
+  <img src="image/implementation2.png" width="600"/>
+</p>
+
 - **Đánh giá & kiểm kê**: tài sản, thiết bị, dữ liệu.
   
 -> Tiến hành đánh giá kỹ lưỡng cơ sở hạ tầng mạng hiện có, xác định các tài sản quan trọng và các lỗ hổng tiềm ẩn. Bước này liên quan đến việc tạo một bản kiểm kê toàn diện về tất cả các thiết bị, người dùng và tài nguyên
