@@ -197,7 +197,8 @@ Zero trust hiện đại, trong tương lai cần đảm bảo sự cân bằng 
 <p align="center">
   <img src="image/currentstateofzerotrustimplementations.PNG" width="600"/>
 </p>
-**Khảo sát mức độ triển khai của các công ty đầu năm 2025**
+<div align="center" > Khảo sát mức độ triển khai của các công ty đầu năm 2025 </div>
+
 ## 📈 Xu hướng và thị trường
 
 <p align="center">
@@ -212,11 +213,29 @@ Zero trust hiện đại, trong tương lai cần đảm bảo sự cân bằng 
 
 ## 📝 Tổng kết
 
-Zero Trust **không phải là một sản phẩm**, mà là **một chiến lược bảo mật toàn diện**.  
-Nó yêu cầu:  
-- Sự phối hợp giữa **công nghệ – quy trình – con người**.  
-- Đầu tư vào **xác thực đa yếu tố, segmentation, giám sát liên tục, AI/ML**.  
-- Thay đổi tư duy từ “tin tưởng mặc định” sang “luôn xác minh”.  
+## 📌 Tổng kết
+
+Zero Trust là mô hình bảo mật hiện đại thay thế cho mô hình truyền thống “tin tưởng bên trong – phòng thủ bên ngoài”. Trong bối cảnh dữ liệu phân tán trên cloud, SaaS, thiết bị cá nhân và nhân viên làm việc từ xa, cách tiếp cận cũ không còn hiệu quả.  
+
+Triết lý Zero Trust:  
+> **“Never trust, always verify – Không tin tưởng, luôn xác minh.”**
+
+### Điểm mạnh
+- Giảm nguy cơ **lateral movement** của kẻ tấn công.  
+- Quản lý truy cập theo **danh tính và ngữ cảnh** thay vì vị trí mạng.  
+- Tăng khả năng giám sát, phản ứng sự cố, bảo vệ tốt hơn trong môi trường đa đám mây.  
+
+### Hạn chế
+- **Chi phí và độ phức tạp cao** khi triển khai.  
+- Có thể ảnh hưởng đến hiệu suất nếu không tối ưu.  
+- Chưa có **chuẩn chung toàn cầu**, mỗi nhà cung cấp có cách riêng.  
+
+### Xu hướng
+- Được các tập đoàn lớn như Microsoft, Cisco, Palo Alto áp dụng mạnh mẽ.  
+- Thị trường tăng trưởng nhanh, dự kiến trở thành **chuẩn mực bảo mật tất yếu** trong kỷ nguyên cloud và làm việc từ xa.  
+
+➡️ Zero Trust không phải là một sản phẩm cụ thể, mà là **chiến lược bảo mật toàn diện**.  
+Mục tiêu cuối cùng: **Đảm bảo đúng người, đúng quyền, đúng thời điểm, đúng ngữ cảnh.**
 
 👉 Trong tương lai gần, **Zero Trust sẽ trở thành tiêu chuẩn bảo mật bắt buộc**, đặc biệt với các tổ chức chuyển đổi số, làm việc từ xa, và quản lý dữ liệu phân tán.  
 </div>
