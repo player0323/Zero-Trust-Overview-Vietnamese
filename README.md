@@ -1,4 +1,4 @@
-<div align="jutify">
+<div align="justify">
 <h1 align="center">Zero-Trust-Overview</h1>
 <h2 align="center">Zero Trust Overview – What is Zero Trust – Tổng quan Zero Trust</h2>
 
