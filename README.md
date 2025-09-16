@@ -1,4 +1,4 @@
-<img width="5251" height="190" alt="image" src="https://github.com/user-attachments/assets/1079c827-880b-4a23-b351-b359db983a1d" /><h1 align="center">Zero-Trust-Overview</h1>
+
 
 <h2 align="center">zero trust overview, what is zero trust, tong quan zero trust</h2>
 
@@ -60,7 +60,10 @@ Một vấn đề lớn hơn của mô hình cũ là lateral movement, tức là
   <img src="image/whyneedzerotrust3.PNG" width="600"/>
 </p>
 <div align="justify" style="line-height: 1.8; font-size:16px;">
-Theo IBM 2024 Insider Threat Report  83% tổ chức báo cáo ít nhất một vụ tấn công nội bộ trong năm 2024. Ngoài ra, số lượng tổ chức trải qua 11-20 vụ tấn công nội bộ tăng từ 4% năm 2023 lên 21% năm 2024. Báo cáo này dựa trên khảo sát 413 chuyên gia IT và an ninh mạng, cung cấp cái nhìn sâu sắc về xu hướng rủi ro nội bộ.
+  
+Theo IBM 2024 Insider Threat Report  83% tổ chức báo cáo ít nhất một vụ tấn công nội bộ trong năm 2024. Ngoài ra, số lượng tổ chức trải qua 11-20 vụ tấn công nội bộ tăng từ 4% năm 2023 lên 21% năm 2024. 
+
+** Báo cáo này dựa trên khảo sát 413 chuyên gia IT và an ninh mạng, cung cấp cái nhìn sâu sắc về xu hướng rủi ro nội bộ.
   
 Khảo sát phản ánh sự gia tăng đáng lo ngại của các mối đe dọa từ nội bộ, đòi hỏi tổ chức phải có chiến lược bảo vệ phù hợp, không chỉ từ bên ngoài mà còn từ bên trong chính hệ thống của mình.
 <div>
